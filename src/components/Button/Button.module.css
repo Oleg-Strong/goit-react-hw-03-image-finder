@@ -1,0 +1,25 @@
+.loadMoreBtn {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #a7a7a7;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  border: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.loadMoreBtn:hover,
+.loadMoreBtn:focus {
+  color: rgb(255, 0, 0);
+  box-shadow: 0px 0px 27px 4px rgb(255, 255, 255);
+}
